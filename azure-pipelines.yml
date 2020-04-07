@@ -42,7 +42,7 @@ stages:
               displayName: 'ng build'
               inputs:
                   command: custom
-                  workingDir: .
+                  workingDir: src/app.
                   verbose: false
                   customCommand: 'ng build'
             
@@ -82,7 +82,7 @@ stages:
               displayName: 'ng build'
               inputs:
                   command: custom
-                  workingDir: .
+                  workingDir: src/app.
                   verbose: false
                   customCommand: 'ng build'
             

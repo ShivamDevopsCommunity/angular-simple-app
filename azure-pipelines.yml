@@ -44,7 +44,7 @@ stages:
                   command: custom
                   workingDir: .
                   verbose: false
-                  customCommand: 'run src:dev'
+                  customCommand: 'ng build'
             
             - task: CopyFiles@2
               displayName: 'Copy Files to: dist'
@@ -84,7 +84,7 @@ stages:
                   command: custom
                   workingDir: .
                   verbose: false
-                  customCommand: 'run src:uat'
+                  customCommand: 'ng build'
             
             - task: CopyFiles@2
               displayName: 'Copy Files to: dist'
